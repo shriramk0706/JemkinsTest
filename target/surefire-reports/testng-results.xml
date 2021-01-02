@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+    <groups>
+    </groups>
+    <test name="TestNG" duration-ms="81" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+      <class name="testcases.SampleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.SampleTest@5ce81285]" name="beforeTest" is-config="true" duration-ms="16" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.SampleTest@5ce81285]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="firstTest()[pri:1, instance:testcases.SampleTest@5ce81285]" name="firstTest" duration-ms="1" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.SampleTest@5ce81285]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="secondTest()[pri:2, instance:testcases.SampleTest@5ce81285]" name="secondTest" duration-ms="1" started-at="2021-01-02T15:54:03 IST" depends-on-methods="testcases.SampleTest.firstTest" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.SampleTest@5ce81285]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.SampleTest@5ce81285]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="thirdTest()[pri:3, instance:testcases.SampleTest@5ce81285]" name="thirdTest" duration-ms="0" started-at="2021-01-02T15:54:03 IST" depends-on-methods="testcases.SampleTest.firstTest" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.SampleTest@5ce81285]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.SampleTest@5ce81285]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.SampleTest@5ce81285]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-01-02T15:54:03 IST" finished-at="2021-01-02T15:54:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.SampleTest -->
+    </test> <!-- TestNG -->
+  </suite> <!-- Suite -->
+</testng-results>

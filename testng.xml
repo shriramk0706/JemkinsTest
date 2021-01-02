@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="TestNG">
     <classes>
-      <class name="jenkinsCI.jenkinsCI.AppTest"/>
+      <class name="testcases.SampleTest"/>
     </classes>
   </test> <!-- TestNG -->
 </suite> <!-- Suite -->
