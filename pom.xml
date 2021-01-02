@@ -11,9 +11,8 @@
 	<name>jenkinsCI</name>
 	<url>http://maven.apache.org</url>
 
-	<!-- <properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties> -->
+	<!-- <properties> <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+		</properties> -->
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -27,6 +26,12 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.0.0-M5</version>
+					<configuration>
+						<forkCount>0</forkCount>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
